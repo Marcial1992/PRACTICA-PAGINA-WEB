@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    justify-content: center;
+    font-family: fantasy;
+    align-items: center;
+    min-height: 100vh;
+}
+img{
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 35px;
+    justify-content: center;
+}
+.container-title {
+    padding: 30px;
+    background-color: #E67E22;
+    margin-bottom: 50px;
+    color: #2E4053;
+    font-size: larger;
+}
+main {
+    
+}
+.container-img {
+    width: 40%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1100px;
+
+}
