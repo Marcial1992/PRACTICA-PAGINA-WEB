@@ -2,12 +2,29 @@
 header {
     display: flex;
     font-family: fantasy;
-    align-items: center;
+    align-items: flex-end;
     padding: 10px;
-    justify-content: center;
+    justify-content: flex-start;
+    width: 100%;
     background-color: rgb(141, 50, 50);
 }
-
+nav {
+    float: right;
+}
+nav a {
+    list-style: none;
+    border-radius: 10px 10px;
+    margin-left: 50px;
+    padding: 10px 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: inline; 
+    content: ;
+    width: 40%;
+    background: black;
+   
+}
 .col {
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
@@ -32,11 +49,74 @@ header {
     border: 1px solid rgba(255,255,255, 0.255)
 }
 .banner-image1{
-    background-image: url("30AIMCRSBKDF_P220509.jpg");
+    background-image: url("09153_6.lg__95423.1645480699.1280.1280__42284.jpg");
     background-position: center;
     background-size: cover;
     height:400px;
-    width: 50%;
+    width: 80%;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255, 0.255)
+}
+.banner-image2{
+    background-image: url("34-6423_523_FL_leaf.jpg");
+    background-position: center;
+    background-size: cover;
+    height:400px;
+    width: 90%;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255, 0.255)
+}
+.banner-image3{
+    background-image: url("055011fcfb1f113522ff8ecac10fcf11387800bb_chaplins_gubi_pacha_lounge_chair_2__77350.jpg");
+    background-position: center;
+    background-size: cover;
+    height:400px;
+    width: 90%;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255, 0.255)
+}
+.banner-image4{
+    background-image: url("Amany+Tufted+Leathaire+Arm+Chair\ \(1\).jpg");
+    background-position: center;
+    background-size: cover;
+    height:400px;
+    width: 90%;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255, 0.255)
+}
+.banner-image5{
+    background-image: url("bay-metal-gallery-2.jpg");
+    background-position: center;
+    background-size: cover;
+    height:400px;
+    width: 90%;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255, 0.255)
+}
+.banner-image6{
+    background-image: url("colunex-figaro-headboard-02.jpg");
+    background-position: center;
+    background-size: cover;
+    height:300px;
+    width: 80%;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255, 0.255)
+}
+.banner-image7{
+    background-image: url("freedom_111793_0-1499x999.jpg");
+    background-position: center;
+    background-size: cover;
+    height:300px;
+    width: 80%;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255, 0.255)
+}
+.banner-image8{
+    background-image: url("Gallery_0_256_maxalto_small-table_Sidus_A-01_1\ \(1\).jpg");
+    background-position: center;
+    background-size: cover;
+    height:300px;
+    width: 80%;
     border-radius: 12px;
     border: 1px solid rgba(255,255,255, 0.255)
 }
